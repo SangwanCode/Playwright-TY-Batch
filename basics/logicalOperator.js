@@ -111,7 +111,22 @@ let lname1;
 let Hname1;
 
 let adminName1=fname1 ?? lname1 ?? Hname1 
-  console.log(adminName1);
+//   console.log(adminName1);
+
+// optional chaining operator
+// ?. check if value exist , return value or undefined. 
+
+let user={
+    name: "parvesh",
+    // address:{
+    //     city:"chd"
+    // }
+}
+
+console.log(user.address?.city)
+
+
+
 
 
 
