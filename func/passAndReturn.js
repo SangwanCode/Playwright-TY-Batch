@@ -63,14 +63,71 @@ function greet(name){
 
 // optional operator ?. 
 
-function message(from , text){   
-    from='* '+from+'*';
-    let comp = text?.toUpperCase();
-    console.log("welcome message");
-    console.log(from + " : " + comp);
-}
+// function message(from , text){   
+//     from='* '+from+'*';
+//     let comp = text?.toUpperCase();
+//     console.log("welcome message");
+//     console.log(from + " : " + comp);
+// }
 
- message("parvesh");
+// message("parvesh")
 
 
  // Return
+
+function add(a,b){   
+
+//    console.log(a+b);     
+   return a+b;
+//    console.log("already return");
+  
+}
+
+//  add(3,4);
+// let sum= add(3,4);
+// console.log(sum);
+
+function message(){
+    console.log("welcome");
+    return 1;
+}
+
+//  message(); // welcome
+//  console.log(message());
+
+// let a=3
+// let b=4
+
+// console.log(a+b);
+
+function checkage(age){
+    if(age>=18){
+        return true;
+
+    } else{
+        return false;
+    }
+}
+// checkage(12)?console.log("access"):
+// console.log("denied");
+// checkage(19)?checkage(19):
+// console.log("denied");
+// ?:
+
+
+let result;
+function add(a,b){
+    //   result=a+b;
+     return a+b;
+}
+// add(5,6);
+// add(7,8);
+// // result =90;
+// console.log(result);
+let sum=add(5,6);
+let sum1=add(7,8);
+// result =90;
+console.log(sum,sum1);
+
+// let sum=add(5,6)
+// console.log(sum);
