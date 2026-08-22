@@ -69,7 +69,34 @@ function voteCan(){
 }
 
 // vote(19,voteOk,voteCan);// vote()
-vote(12,function(){console.log("able to vote")},
-function(){console.log("need to wait")} )
+// vote(12,function(){console.log("able to vote")},
+// function(){console.log("need to wait")} )
 
 // settime(func(),200)
+
+// Arrow function
+// ()=>{}
+
+//   let func= (a,b)=>{
+//     console.log("hello");
+//     return a+b;    
+//   }  
+
+//   let result=func(5,6);
+// console.log(result)
+
+  let func= (a,b)=> a+b;  // no return required
+
+  let result=func(5,6);
+ console.log(result)
+
+
+let abc=()=>"hello";
+console.log(abc());
+
+
+let greet1= ()=>{return "hello"}// required return if weare using {}
+
+greet1();
+console.log(greet1())
+
