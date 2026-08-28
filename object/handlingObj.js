@@ -57,6 +57,27 @@ let student ={
         pincode: 123456
     }
 }
-// in  key in object
-// hasOwnProperty
-console.log("city" in student.address)
+// in  key in object key in object
+// hasOwnProperty // way to check if property exist
+// syntax : object.hasOwnProperty("key")
+// console.log("city" in student.address)
+// console.log("name" in student)
+// console.log(student.hasOwnProperty("name"))
+
+//in --check properties own by object along with inherited
+//hasOwnProperty -- it only check check properties own by object.
+
+let user1={ name :"parvesh"}
+
+// console.log("name" in user1);
+// console.log(user1.hasOwnProperty("name"));
+
+// console.log("toString" in user1);
+// console.log(user1.hasOwnProperty("toString"))
+console.log("valueOf" in user1);
+console.log(user1.hasOwnProperty("valueOf"))
+
+
+
+
+
