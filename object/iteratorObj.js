@@ -10,7 +10,7 @@ let student ={
         pincode: 123456
     }
 }
-
+// console.log("name" in student);
 // check all the keys --in
 // loops w3school (for in)
 // for(let abc in student){
